@@ -1,6 +1,18 @@
-# Tracefield
+<div align="center">
+  
+  # Tracefield
 
-[한국어](./README.ko.md)
+</div>
+<div align="center">
+
+  <video src="https://github.com/user-attachments/assets/ec08e786-72dd-400c-92d2-d29ce03058e7" width="600" controls autoplay loop muted></video>
+  
+</div>
+<div align="center">
+  
+[한국어](./README.md)
+
+</div>
 
 ## Overview
 
