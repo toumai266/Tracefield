@@ -1,6 +1,18 @@
-# Tracefield
+<div align="center">
+  
+  # Tracefield
 
+</div>
+<div align="center">
+
+  <video src="https://github.com/user-attachments/assets/ec08e786-72dd-400c-92d2-d29ce03058e7" width="600" controls autoplay loop muted></video>
+  
+</div>
+<div align="center">
+  
 [English](./README.eng.md)
+
+</div>
 
 ## 개요
 
