@@ -1,49 +1,29 @@
 # Tracefield
 
-[한국어](./README.ko.md)
+[English](./README.eng.md)
 
-Tracefield is a portfolio case study for a geospatial AI workspace that analyzes regional change using Sentinel-2 satellite imagery.
+## 개요
 
-This repository contains project introduction materials only. Source code, deployment files, environment files, and internal implementation assets are not included.
+Tracefield는 Sentinel-2 위성 영상을 기반으로 지역 변화를 분석하는 지리공간 AI 워크스페이스입니다. 위성 영상, 격자 기반 지표, 지도 맥락, AI 해석을 하나의 분석 워크스페이스로 연결해 특정 지역의 전후 변화를 살펴볼 수 있도록 설계되었습니다.
 
-## Overview
+## 주요 기능
 
-Tracefield was designed to help inspect regional change by combining satellite imagery, grid-based indicators, map context, and AI-assisted interpretation in a single analysis workspace.
+- Sentinel-2 before/after 장면 비교
+- 격자 기반 지역 변화 분석
+- NDWI, NDVI, 구름, 신뢰도, 변화 점수 계산
+- 행정구역 경계와 주변 지도 맥락 연동
+- 인터랙티브 지도 워크스페이스
+- 셀 단위 AI 해석
 
-## Key Features
-
-- Before/after Sentinel-2 scene comparison
-- Grid-based regional change analysis
-- NDWI, NDVI, cloud, confidence, and change scoring
-- Administrative boundary and nearby map-context integration
-- Interactive map workspace
-- Cell-level AI interpretation
-
-## Screenshots
-
-Screenshots will be added under [`screenshots`](./screenshots).
-
-Recommended set:
-
-- Main workspace
-- Before/after scene comparison
-- Grid analysis view
-- Cell-level AI interpretation panel
-
-## Tech Stack
+## 기술 스택
 
 - Frontend: Next.js, React, Three.js, MapLibre
 - Backend: FastAPI, Rasterio, NumPy, Shapely
 - AI: OpenAI Responses API
 - Deployment: Docker Compose, Caddy
 
-## Project Scope
+프론트엔드 워크스페이스, 백엔드 분석 API, 지리공간 처리 파이프라인, AI 리포트 연동까지 하나의 엔드투엔드 프로토타입으로 설계하고 구현했습니다.
 
-This was built as an end-to-end prototype covering the product flow, frontend workspace, backend analysis API, geospatial processing pipeline, and AI report integration.
+## 참고
 
-## Notes
-
-- This repository is for portfolio review only.
-- Source code and deployment configuration are intentionally excluded.
-- Analysis results are observational and are not official damage, legal, or safety determinations.
-- No license is granted for reuse, redistribution, or commercial use.
+- 분석 결과는 관측 보조용이며 공식 피해 판정, 법적 판단, 안전 판단에 사용할 수 없습니다.
