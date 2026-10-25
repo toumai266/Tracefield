@@ -7,11 +7,11 @@ Tracefield is a geospatial AI workspace for regional change analysis. Pick an ar
 > [!NOTE]
 > This repository is a project showcase. The source code is private; a walkthrough is available on request.
 
-<div align="center">
-
-  <video src="https://github.com/user-attachments/assets/ec08e786-72dd-400c-92d2-d29ce03058e7" width="100%" controls autoplay loop muted></video>
-
-</div>
+<p align="center">
+  <a href="media/tracefield.mp4"><img src="media/preview.webp" alt="Tracefield demo: scene search, before/after comparison, change heatmap and AI interpretation" width="100%"></a>
+  <br>
+  <sub><a href="media/tracefield.mp4">Watch the full video (0:51)</a></sub>
+</p>
 
 ## Why
 
